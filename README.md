@@ -2,7 +2,15 @@
 auto generate subtitle and add to video without any other video editor
 
 ## WSL GUI
-Python GUI to easily generate and add subtitle to Video
+Python GUI to easily generate and add subtitle to Video, you can also generate SRT file only 
+
+![Sample](media/sample.gif)
+
+## Output
+auto subtitle added to video, 
+
+![GIF](media/output.gif)
+
 
 ## Installation
 
@@ -37,6 +45,8 @@ The following command will run the GUI
 ```bash
     python3 main.py
 ```
+
+
 
 ## License
 

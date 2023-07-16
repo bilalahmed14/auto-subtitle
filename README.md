@@ -1,8 +1,8 @@
-# Generate and ADD subtitle to video wihtout any Video Editor
-auto generate subtitle and add to video without any other video editor
+# Generate and ADD subtitles to the video without any Video Editor
+auto-generate subtitles and add to video without any other video editor
 
 ## WSL GUI
-Python GUI to easily generate and add subtitle to Video, you can also generate SRT file only 
+Python GUI to easily generate and add subtitles to Video, you can also generate SRT file only 
 
 ![Sample](media/sample.gif)
 
@@ -15,13 +15,13 @@ auto subtitle added to video,
 ## Installation
 
 ```bash
-# update the WSL to support GUI (only wsl2 support gui)
+# update the WSL to support GUI (only wsl2 supports gui)
 wsl --update
-# ou will need to restart WSL for the update to take effect
+# you need to restart WSL for the update to take effect
 wsl --shutdown
 ```
 
-To get started, you'll need Python 3.7 or newer. Install the binary by running the following command:
+To get started, you'll need Python 3.7 or newer. Clone the Repo and Install the binary by running the following command:
 
     pip install git+https://github.com/bilalahmed14/auto-subtitle.git
 
@@ -43,7 +43,7 @@ choco install ffmpeg
 The following command will run the GUI
 
 ```bash
-    python3 main.py
+    $python3 main.py
 ```
 
 
